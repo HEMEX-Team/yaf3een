@@ -1,0 +1,149 @@
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* شريط التنقل */
+.navbar {
+  background-color: #4CAF50;
+  padding: 15px;
+  text-align: center;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+  color: #e0e0e0;
+}
+
+/* الأقسام */
+.section {
+  padding: 40px 20px;
+  margin: 20px 0;
+}
+
+/* العناوين */
+.title {
+  color: #4CAF50;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* القسم الأول */
+.program-info {
+  background-color: #e8f5e9;
+}
+
+.program-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  padding: 20px;
+}
+
+.program-image {
+  width: 40%;
+  text-align: center;
+}
+
+.program-image img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.program-description {
+  width: 60%;
+  padding: 10px 20px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* القسم الثاني */
+.vision {
+  background-color: #fff;
+}
+
+.vision img {
+  width: 60%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+/* القسم الثالث */
+.courses-section {
+  background-color: #e8f5e9;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.course-card {
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.course-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.course-title {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.details-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.details-btn:hover {
+  background-color: #45a049;
+}
+
+/* صفحة التفاصيل */
+.course-details img {
+  width: 50%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.back-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* الفوتر */
+.footer {
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 20px;
+}
